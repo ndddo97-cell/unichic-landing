@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="UNICHIC — Thương hiệu thời trang nam hiện đại, chỉn chu và tinh giản. Khám phá bộ sưu tập áo polo, sơ mi, quần và phụ kiện cao cấp." />
+  <title>UNICHIC — Phong Thái Tạo Nên Khác Biệt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ====================================
+     SECTION 1 — ANNOUNCEMENT BAR
+     ==================================== -->
+<div class="announcement-bar" id="announcement-bar" role="banner" aria-label="Thông báo ưu đãi">
+  <div class="announcement-track" id="announcementTrack">
+    <div class="announcement-item">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      MIỄN PHÍ VẬN CHUYỂN CHO ĐƠN TỪ [ĐIỀN THÔNG TIN]
+    </div>
+    <div class="announcement-item">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      ĐỔI SẢN PHẨM TRONG [ĐIỀN THÔNG TIN] NGÀY
+    </div>
+    <div class="announcement-item">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+      QUÀ TẶNG ĐẶC BIỆT CHO THÀNH VIÊN
+    </div>
+    <div class="announcement-item">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+      UNICHIC — PHONG THÁI TẠO NÊN KHÁC BIỆT
+    </div>
+  </div>
+</div>
+
+<!-- ====================================
+     SECTION 2 — HEADER
+     ==================================== -->
+<header class="header" id="mainHeader" role="banner">
+  <div class="header-inner">
+    <!-- Left nav -->
+    <nav class="header-nav header-nav-left" aria-label="Điều hướng chính bên trái">
+      <a href="#" class="nav-link">HÀNG MỚI</a>
+      <div class="nav-dropdown">
+        <a href="#" class="nav-link nav-has-dropdown" aria-haspopup="true" aria-expanded="false">
+          SẢN PHẨM
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+        </a>
+        <div class="dropdown-menu" role="menu">
+          <a href="#" class="dropdown-item" role="menuitem">Áo Polo</a>
+          <a href="#" class="dropdown-item" role="menuitem">Áo Thun</a>
+          <a href="#" class="dropdown-item" role="menuitem">Áo Sơ Mi</a>
+          <a href="#" class="dropdown-item" role="menuitem">Áo Khoác</a>
+          <a href="#" class="dropdown-item" role="menuitem">Quần Dài</a>
+          <a href="#" class="dropdown-item" role="menuitem">Quần Short</a>
+          <a href="#" class="dropdown-item" role="menuitem">Phụ Kiện</a>
+        </div>
+      </div>
+      <div class="nav-dropdown">
+        <a href="#" class="nav-link nav-has-dropdown" aria-haspopup="true" aria-expanded="false">
+          BỘ SƯU TẬP
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+        </a>
+        <div class="dropdown-menu" role="menu">
+          <a href="#" class="dropdown-item" role="menuitem">Smart Business</a>
+          <a href="#" class="dropdown-item" role="menuitem">Modern Casual</a>
+          <a href="#" class="dropdown-item" role="menuitem">Signature Collection</a>
+        </div>
+      </div>
+      <a href="#brand-story" class="nav-link">CÂU CHUYỆN UNICHIC</a>
+      <a href="#contact" class="nav-link">LIÊN HỆ</a>
+    </nav>
+
+    <!-- Center logo -->
+    <a href="/" class="header-logo" aria-label="UNICHIC - Trang chủ">UNICHIC</a>
+
+    <!-- Right icons -->
+    <div class="header-icons" role="navigation" aria-label="Tài khoản và giỏ hàng">
+      <button class="icon-btn" aria-label="Tài khoản của tôi" id="accountBtn">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+      </button>
+      <button class="icon-btn cart-btn" aria-label="Giỏ hàng (0 sản phẩm)" id="cartBtn">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        <span class="cart-badge" aria-live="polite">0</span>
+      </button>
+      <button class="icon-btn" aria-label="Tìm kiếm" id="searchBtn">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+      <!-- Mobile hamburger -->
+      <button class="hamburger-btn icon-btn" aria-label="Mở menu điều hướng" id="hamburgerBtn" aria-expanded="false" aria-controls="mobileMenu">
+        <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Search overlay -->
+  <div class="search-overlay" id="searchOverlay" role="search" aria-hidden="true">
+    <div class="search-overlay-inner">
+      <input type="search" placeholder="Tìm kiếm sản phẩm..." class="search-input" id="searchInput" aria-label="Tìm kiếm sản phẩm" />
+      <button class="search-close" id="searchClose" aria-label="Đóng tìm kiếm">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ====================================
+     MOBILE MENU
+     ==================================== -->
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Menu điều hướng" aria-hidden="true">
+  <div class="mobile-menu-overlay" id="menuOverlay"></div>
+  <nav class="mobile-menu-panel">
+    <div class="mobile-menu-header">
+      <span class="mobile-logo">UNICHIC</span>
+      <button class="icon-btn" id="menuCloseBtn" aria-label="Đóng menu">
+        <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="mobile-menu-body">
+      <a href="#" class="mobile-nav-link">HÀNG MỚI</a>
+      <details class="mobile-nav-accordion">
+        <summary class="mobile-nav-link">SẢN PHẨM</summary>
+        <div class="mobile-nav-sub">
+          <a href="#" class="mobile-nav-sub-link">Áo Polo</a>
+          <a href="#" class="mobile-nav-sub-link">Áo Thun</a>
+          <a href="#" class="mobile-nav-sub-link">Áo Sơ Mi</a>
+          <a href="#" class="mobile-nav-sub-link">Áo Khoác</a>
+          <a href="#" class="mobile-nav-sub-link">Quần Dài</a>
+          <a href="#" class="mobile-nav-sub-link">Quần Short</a>
+          <a href="#" class="mobile-nav-sub-link">Phụ Kiện</a>
+        </div>
+      </details>
+      <details class="mobile-nav-accordion">
+        <summary class="mobile-nav-link">BỘ SƯU TẬP</summary>
+        <div class="mobile-nav-sub">
+          <a href="#" class="mobile-nav-sub-link">Smart Business</a>
+          <a href="#" class="mobile-nav-sub-link">Modern Casual</a>
+          <a href="#" class="mobile-nav-sub-link">Signature Collection</a>
+        </div>
+      </details>
+      <a href="#brand-story" class="mobile-nav-link">CÂU CHUYỆN UNICHIC</a>
+      <a href="#contact" class="mobile-nav-link">LIÊN HỆ</a>
+    </div>
+    <div class="mobile-menu-footer">
+      <div class="mobile-menu-icons">
+        <button class="icon-btn" aria-label="Tài khoản">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </button>
+        <button class="icon-btn" aria-label="Giỏ hàng">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<!-- ====================================
+     SECTION 3 — HERO BANNER
+     ==================================== -->
+<section class="hero-section" aria-label="Banner chính UNICHIC">
+  <div class="hero-wrapper">
+    <div class="hero-img-container">
+      <img
+        src="images/hero-banner.jpg"
+        alt="UNICHIC Signature Collection — Bộ sưu tập thời trang nam cao cấp"
+        class="hero-img"
+        loading="eager"
+        width="1440"
+        height="600"
+      />
+      <div class="hero-overlay" aria-hidden="true"></div>
+    </div>
+    <div class="hero-content reveal-fade">
+      <p class="hero-label">UNICHIC SIGNATURE COLLECTION</p>
+      <h1 class="hero-heading">
+        BẢN LĨNH HIỆN ĐẠI<br />
+        PHONG THÁI KHÁC BIỆT
+      </h1>
+      <p class="hero-desc">
+        UNICHIC mang đến những thiết kế thời trang nam hiện đại, chỉn chu và linh hoạt,<br class="hero-br" />
+        giúp người đàn ông tự tin trong mọi khoảnh khắc.
+      </p>
+      <a href="#featured-products" class="btn-primary hero-cta">KHÁM PHÁ BỘ SƯU TẬP</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================
+     SECTION 4 — BRAND STORY
+     ==================================== -->
+<section class="brand-story-section reveal-section" id="brand-story" aria-labelledby="brandStoryHeading">
+  <div class="container brand-story-grid">
+    <div class="brand-story-img-col">
+      <img
+        src="images/brand-story.jpg"
+        alt="Câu chuyện thương hiệu UNICHIC — phong cách không cần phô trương"
+        class="brand-story-img"
+        loading="lazy"
+        width="700"
+        height="900"
+      />
+    </div>
+    <div class="brand-story-content-col">
+      <p class="section-label">THE ART OF MODERN ELEGANCE</p>
+      <h2 class="brand-story-heading" id="brandStoryHeading">PHONG CÁCH KHÔNG CẦN PHÔ TRƯƠNG</h2>
+      <p class="brand-story-body">
+        UNICHIC tin rằng sự sang trọng thực sự được tạo nên từ phom dáng vừa vặn, chất liệu phù hợp và cách mỗi người đàn ông tự tin thể hiện bản thân.
+      </p>
+      <p class="brand-story-body">
+        Mỗi thiết kế hướng đến sự cân bằng giữa tính thẩm mỹ, sự thoải mái và khả năng ứng dụng trong công việc, gặp gỡ và đời sống thường ngày.
+      </p>
+      <p class="brand-story-accent">
+        UNICHIC không chỉ tạo ra trang phục. UNICHIC kiến tạo phong thái.
+      </p>
+      <a href="#brand-story" class="text-link">CÂU CHUYỆN UNICHIC
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================
+     SECTION 5 — CATEGORY GRID
+     ==================================== -->
+<section class="category-section reveal-section" aria-labelledby="categoryHeading">
+  <div class="container">
+    <h2 class="section-title text-center" id="categoryHeading">DANH MỤC SẢN PHẨM</h2>
+    <div class="category-grid">
+      <a href="#" class="category-card" aria-label="Xem danh mục Áo">
+        <div class="category-img-wrap">
+          <img src="images/category-ao.jpg" alt="Danh mục áo polo và sơ mi UNICHIC" class="category-img" loading="lazy" width="480" height="320" />
+        </div>
+        <p class="category-name">ÁO</p>
+      </a>
+      <a href="#" class="category-card" aria-label="Xem danh mục Quần">
+        <div class="category-img-wrap">
+          <img src="images/category-quan.jpg" alt="Danh mục quần chino và quần tây UNICHIC" class="category-img" loading="lazy" width="480" height="320" />
+        </div>
+        <p class="category-name">QUẦN</p>
+      </a>
+      <a href="#" class="category-card" aria-label="Xem danh mục Phụ kiện">
+        <div class="category-img-wrap">
+          <img src="images/category-phukien.jpg" alt="Danh mục phụ kiện thời trang nam UNICHIC" class="category-img" loading="lazy" width="480" height="320" />
+        </div>
+        <p class="category-name">PHỤ KIỆN</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================
+     SECTION 6 — EDITORIAL COLLECTIONS
+     ==================================== -->
+<section class="editorial-section reveal-section" aria-labelledby="editorialHeading">
+  <div class="container">
+    <div class="editorial-grid">
+      <a href="#" class="editorial-card" aria-label="Xem bộ sưu tập Smart Business">
+        <div class="editorial-img-wrap">
+          <img src="images/collection-business.jpg" alt="UNICHIC Smart Business — thiết kế chỉn chu cho công việc" class="editorial-img" loading="lazy" width="700" height="525" />
+          <div class="editorial-overlay" aria-hidden="true"></div>
+        </div>
+        <div class="editorial-content">
+          <h3 class="editorial-title" id="editorialHeading">SMART BUSINESS</h3>
+          <p class="editorial-desc">Những thiết kế chỉn chu dành cho công việc, cuộc họp và những cuộc gặp gỡ quan trọng.</p>
+          <span class="editorial-cta">XEM BỘ SƯU TẬP
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </span>
+        </div>
+      </a>
+      <a href="#" class="editorial-card" aria-label="Xem bộ sưu tập Modern Casual">
+        <div class="editorial-img-wrap">
+          <img src="images/collection-casual.jpg" alt="UNICHIC Modern Casual — thanh lịch và thoải mái" class="editorial-img" loading="lazy" width="700" height="525" />
+          <div class="editorial-overlay" aria-hidden="true"></div>
+        </div>
+        <div class="editorial-content">
+          <h3 class="editorial-title">MODERN CASUAL</h3>
+          <p class="editorial-desc">Sự cân bằng giữa thanh lịch và thoải mái dành cho nhịp sống hiện đại.</p>
+          <span class="editorial-cta">KHÁM PHÁ NGAY
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================
+     SECTION 7 — EDITORIAL BANNER
+     ==================================== -->
+<section class="editorial-banner-section reveal-section" aria-label="Banner phong cách UNICHIC">
+  <div class="editorial-banner-wrapper">
+    <img
+      src="images/editorial-banner.jpg"
+      alt="UNICHIC phong thái tạo nên khác biệt — editorial banner"
+      class="editorial-banner-img"
+      loading="lazy"
+      width="1440"
+      height="640"
+    />
+    <div class="editorial-banner-overlay" aria-hidden="true"></div>
+    <div class="editorial-banner-content">
+      <h2 class="editorial-banner-heading">PHONG THÁI TẠO NÊN KHÁC BIỆT</h2>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================
+     SECTION 8 — FEATURED PRODUCTS
+     ==================================== -->
+<section class="product-section reveal-section" id="featured-products" aria-labelledby="featuredHeading">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title" id="featuredHeading">THIẾT KẾ NỔI BẬT</h2>
+    </div>
+    <div class="product-grid" id="featuredGrid">
+
+      <!-- Product 1 -->
+      <article class="product-card" aria-label="Áo Polo UNICHIC Signature">
+        <div class="product-img-wrap">
+          <span class="product-badge badge-sale">TIẾT KIỆM 20%</span>
+          <img
+            src="images/product-polo-signature.jpg"
+            alt="Áo Polo UNICHIC Signature màu navy"
+            class="product-img"
+            loading="lazy"
+            width="400"
+            height="500"
+          />
+          <div class="product-actions">
+            <button class="product-quick-view" aria-label="Xem nhanh Áo Polo UNICHIC Signature">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">Áo Polo UNICHIC Signature</h3>
+          <div class="product-prices">
+            <span class="product-price">399.000₫</span>
+            <span class="product-original-price">499.000₫</span>
+          </div>
+          <div class="product-swatches" aria-label="Màu sắc có sẵn">
+            <span class="swatch" style="background:#1F2A44" aria-label="Navy" title="Navy"></span>
+            <span class="swatch" style="background:#FFFFFF;border:1px solid #D1D5DB" aria-label="Trắng" title="Trắng"></span>
+            <span class="swatch" style="background:#6B7280" aria-label="Xám" title="Xám"></span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Product 2 -->
+      <article class="product-card" aria-label="Áo Polo Contrast Collar">
+        <div class="product-img-wrap">
+          <span class="product-badge badge-new">HÀNG MỚI</span>
+          <img
+            src="images/product-polo-contrast.jpg"
+            alt="Áo Polo Contrast Collar màu trắng cổ navy"
+            class="product-img"
+            loading="lazy"
+            width="400"
+            height="500"
+          />
+          <div class="product-actions">
+            <button class="product-quick-view" aria-label="Xem nhanh Áo Polo Contrast Collar">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">Áo Polo Contrast Collar</h3>
+          <div class="product-prices">
+            <span class="product-price">449.000₫</span>
+          </div>
+          <div class="product-swatches" aria-label="Màu sắc có sẵn">
+            <span class="swatch" style="background:#FFFFFF;border:1px solid #D1D5DB" aria-label="Trắng" title="Trắng"></span>
+            <span class="swatch" style="background:#F2F2F2;border:1px solid #D1D5DB" aria-label="Kem" title="Kem"></span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Product 3 -->
+      <article class="product-card" aria-label="Sơ Mi Oxford Premium">
+        <div class="product-img-wrap">
+          <span class="product-badge badge-hot">BÁN CHẠY</span>
+          <img
+            src="images/product-oxford-shirt.jpg"
+            alt="Sơ Mi Oxford Premium màu trắng UNICHIC"
+            class="product-img"
+            loading="lazy"
+            width="400"
+            height="500"
+          />
+          <div class="product-actions">
+            <button class="product-quick-view" aria-label="Xem nhanh Sơ Mi Oxford Premium">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">Sơ Mi Oxford Premium</h3>
+          <div class="product-prices">
+            <span class="product-price">529.000₫</span>
+          </div>
+          <div class="product-swatches" aria-label="Màu sắc có sẵn">
+            <span class="swatch" style="background:#FFFFFF;border:1px solid #D1D5DB" aria-label="Trắng" title="Trắng"></span>
+            <span class="swatch" style="background:#C7D2FE" aria-label="Xanh nhạt" title="Xanh nhạt"></span>
+            <span class="swatch" style="background:#D1D5DB" aria-label="Xám nhạt" title="Xám nhạt"></span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Product 4 -->
+      <article class="product-card" aria-label="Quần Chino Modern Fit">
+        <div class="product-img-wrap">
+          <span class="product-badge badge-limited">SẮP HẾT</span>
+          <img
+            src="images/product-chino.jpg"
+            alt="Quần Chino Modern Fit màu beige UNICHIC"
+            class="product-img"
+            loading="lazy"
+            width="400"
+            height="500"
+          />
+          <div class="product-actions">
+            <button class="product-quick-view" aria-label="Xem nhanh Quần Chino Modern Fit">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">Quần Chino Modern Fit</h3>
+          <div class="product-prices">
+            <span class="product-price">599.000₫</span>
+            <span class="product-original-price">699.000₫</span>
+          </div>
+          <div class="product-swatches" aria-label="Màu sắc có sẵn">
+            <span class="swatch" style="background:#D4C5A9" aria-label="Beige" title="Beige"></span>
+            <span class="swatch" style="background:#374151" aria-label="Charcoal" title="Charcoal"></span>
+            <span class="swatch" style="background:#1F2A44" aria-label="Navy" title="Navy"></span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+    <div class="section-cta-wrap">
+      <a href="#" class="btn-primary">XEM TẤT CẢ</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================
+     SECTION 9 — NEW ARRIVALS BANNER
+     ==================================== -->
+<section class="new-arrivals-banner reveal-section" aria-label="Hàng mới về UNICHIC">
+  <div class="new-arrivals-inner container">
+    <div class="new-arrivals-content">
+      <p class="section-label" style="color:#1F2A44">MÙA MỚI</p>
+      <h2 class="new-arrivals-heading">HÀNG MỚI<br />VỀ</h2>
+      <p class="new-arrivals-desc">Những thiết kế mới dành cho mùa hiện tại.</p>
+      <a href="#" class="btn-primary">KHÁM PHÁ NGAY</a>
+    </div>
+    <div class="new-arrivals-img-col">
+      <img
+        src="images/new-arrivals-banner.jpg"
+        alt="Hàng mới về UNICHIC — bộ sưu tập mùa mới"
+        class="new-arrivals-img"
+        loading="lazy"
+        width="600"
+        height="560"
+      />
+    </div>
+  </div>
+</section>
+
+<!-- ====================================
+     SECTION 10 — NEW PRODUCTS CAROUSEL
+     ==================================== -->
+<section class="carousel-section reveal-section" aria-labelledby="newProductsHeading">
+  <div class="container">
+    <div class="section-header carousel-header">
+      <h2 class="section-title" id="newProductsHeading">SẢN PHẨM MỚI</h2>
+      <div class="carousel-controls">
+        <button class="carousel-btn" id="newPrev" aria-label="Sản phẩm trước">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <button class="carousel-btn" id="newNext" aria-label="Sản phẩm tiếp theo">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="carousel-track-wrap">
+      <div class="carousel-track" id="newCarouselTrack" aria-label="Danh sách sản phẩm mới">
+
+        <article class="product-card carousel-item" aria-label="Áo Polo Diamond Knit">
+          <div class="product-img-wrap">
+            <span class="product-badge badge-new">HÀNG MỚI</span>
+            <img src="images/product-diamond-knit.jpg" alt="Áo Polo Diamond Knit xám nhạt" class="product-img" loading="lazy" width="400" height="500" />
+            <div class="product-actions">
+              <button class="product-quick-view" aria-label="Xem nhanh Áo Polo Diamond Knit">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Áo Polo Diamond Knit</h3>
+            <div class="product-prices"><span class="product-price">479.000₫</span></div>
+            <div class="product-swatches">
+              <span class="swatch" style="background:#E5E7EB;border:1px solid #D1D5DB" aria-label="Xám nhạt" title="Xám nhạt"></span>
+              <span class="swatch" style="background:#1F2A44" aria-label="Navy" title="Navy"></span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card carousel-item" aria-label="Áo Polo Premium Cotton">
+          <div class="product-img-wrap">
+            <span class="product-badge badge-new">HÀNG MỚI</span>
+            <img src="images/product-premium-cotton.jpg" alt="Áo Polo Premium Cotton đen" class="product-img" loading="lazy" width="400" height="500" />
+            <div class="product-actions">
+              <button class="product-quick-view" aria-label="Xem nhanh Áo Polo Premium Cotton">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Áo Polo Premium Cotton</h3>
+            <div class="product-prices"><span class="product-price">429.000₫</span></div>
+            <div class="product-swatches">
+              <span class="swatch" style="background:#111827" aria-label="Đen" title="Đen"></span>
+              <span class="swatch" style="background:#FFFFFF;border:1px solid #D1D5DB" aria-label="Trắng" title="Trắng"></span>
+              <span class="swatch" style="background:#1F2A44" aria-label="Navy" title="Navy"></span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card carousel-item" aria-label="Sơ Mi Contrast Panel">
+          <div class="product-img-wrap">
+            <img src="images/product-contrast-panel.jpg" alt="Sơ Mi Contrast Panel trắng" class="product-img" loading="lazy" width="400" height="500" />
+            <div class="product-actions">
+              <button class="product-quick-view" aria-label="Xem nhanh Sơ Mi Contrast Panel">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Sơ Mi Contrast Panel</h3>
+            <div class="product-prices"><span class="product-price">559.000₫</span></div>
+            <div class="product-swatches">
+              <span class="swatch" style="background:#FFFFFF;border:1px solid #D1D5DB" aria-label="Trắng" title="Trắng"></span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card carousel-item" aria-label="Áo Thun Essential Fit">
+          <div class="product-img-wrap">
+            <span class="product-badge badge-new">HÀNG MỚI</span>
+            <img src="images/product-essential-tee.jpg" alt="Áo Thun Essential Fit xanh sage" class="product-img" loading="lazy" width="400" height="500" />
+            <div class="product-actions">
+              <button class="product-quick-view" aria-label="Xem nhanh Áo Thun Essential Fit">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Áo Thun Essential Fit</h3>
+            <div class="product-prices"><span class="product-price">299.000₫</span></div>
+            <div class="product-swatches">
+              <span class="swatch" style="background:#8BAF8E" aria-label="Sage" title="Sage"></span>
+              <span class="swatch" style="background:#FFFFFF;border:1px solid #D1D5DB" aria-label="Trắng" title="Trắng"></span>
+              <span class="swatch" style="background:#374151" aria-label="Xám đậm" title="Xám đậm"></span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 5th partial visible on desktop -->
+        <article class="product-card carousel-item" aria-label="Áo Polo UNICHIC Classic">
+          <div class="product-img-wrap">
+            <img src="images/product-polo-signature.jpg" alt="Áo Polo UNICHIC Classic" class="product-img" loading="lazy" width="400" height="500" />
+            <div class="product-actions">
+              <button class="product-quick-view" aria-label="Xem nhanh Áo Polo UNICHIC Classic">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Áo Polo UNICHIC Classic</h3>
+            <div class="product-prices"><span class="product-price">379.000₫</span></div>
+            <div class="product-swatches">
+              <span class="swatch" style="background:#1F2A44" aria-label="Navy" title="Navy"></span>
+              <span class="swatch" style="background:#6B7280" aria-label="Xám" title="Xám"></span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+    <div class="carousel-progress-wrap" aria-hidden="true">
+      <div class="carousel-progress-bar" id="newProgressBar"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================
+     SECTION 11 — SIGNATURE BANNER
+     ==================================== -->
+<section class="signature-banner-section reveal-section" aria-label="UNICHIC Signature Collection">
+  <div class="signature-banner-wrapper">
+    <img
+      src="images/signature-banner.jpg"
+      alt="UNICHIC Signature Collection — tinh giản và chỉn chu"
+      class="signature-banner-img"
+      loading="lazy"
+      width="1440"
+      height="600"
+    />
+    <div class="signature-banner-overlay" aria-hidden="true"></div>
+    <div class="signature-banner-content">
+      <p class="signature-label">COLLECTION</p>
+      <h2 class="signature-heading">UNICHIC SIGNATURE<br />COLLECTION</h2>
+      <p class="signature-desc">
+        Những thiết kế thể hiện trọn vẹn tinh thần UNICHIC: hiện đại, tinh giản và chỉn chu trong từng chi tiết.
+      </p>
+      <a href="#" class="btn-light">KHÁM PHÁ COLLECTION</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================
+     SECTION 12 — SIGNATURE PRODUCTS
+     ==================================== -->
+<section class="product-section reveal-section" aria-labelledby="signatureProductsHeading">
+  <div class="container">
+    <div class="section-header carousel-header">
+      <h2 class="section-title" id="signatureProductsHeading">SIGNATURE PICKS</h2>
+      <div class="carousel-controls">
+        <button class="carousel-btn" id="sigPrev" aria-label="Sản phẩm trước">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <button class="carousel-btn" id="sigNext" aria-label="Sản phẩm tiếp theo">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="carousel-track-wrap">
+      <div class="carousel-track" id="sigCarouselTrack">
+
+        <article class="product-card carousel-item" aria-label="Áo Polo Diamond Knit Signature">
+          <div class="product-img-wrap">
+            <img src="images/product-diamond-knit.jpg" alt="Áo Polo Diamond Knit" class="product-img" loading="lazy" width="400" height="500" />
+            <div class="product-actions">
+              <button class="product-quick-view" aria-label="Xem nhanh Áo Polo Diamond Knit">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Áo Polo Diamond Knit</h3>
+            <div class="product-prices"><span class="product-price">479.000₫</span></div>
+            <div class="product-swatches">
+              <span class="swatch" style="background:#E5E7EB;border:1px solid #D1D5DB" title="Xám nhạt"></span>
+              <span class="swatch" style="background:#1F2A44" title="Navy"></span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card carousel-item" aria-label="Áo Polo Premium Cotton">
+          <div class="product-img-wrap">
+            <img src="images/product-premium-cotton.jpg" alt="Áo Polo Premium Cotton" class="product-img" loading="lazy" width="400" height="500" />
+            <div class="product-actions">
+              <button class="product-quick-view" aria-label="Xem nhanh Áo Polo Premium Cotton">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Áo Polo Premium Cotton</h3>
+            <div class="product-prices"><span class="product-price">429.000₫</span></div>
+            <div class="product-swatches">
+              <span class="swatch" style="background:#111827" title="Đen"></span>
+              <span class="swatch" style="background:#FFFFFF;border:1px solid #D1D5DB" title="Trắng"></span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card carousel-item" aria-label="Sơ Mi Contrast Panel">
+          <div class="product-img-wrap">
+            <img src="images/product-contrast-panel.jpg" alt="Sơ Mi Contrast Panel" class="product-img" loading="lazy" width="400" height="500" />
+            <div class="product-actions">
+              <button class="product-quick-view" aria-label="Xem nhanh Sơ Mi Contrast Panel">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Sơ Mi Contrast Panel</h3>
+            <div class="product-prices"><span class="product-price">559.000₫</span></div>
+            <div class="product-swatches">
+              <span class="swatch" style="background:#FFFFFF;border:1px solid #D1D5DB" title="Trắng"></span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card carousel-item" aria-label="Áo Thun Essential Fit">
+          <div class="product-img-wrap">
+            <img src="images/product-essential-tee.jpg" alt="Áo Thun Essential Fit" class="product-img" loading="lazy" width="400" height="500" />
+            <div class="product-actions">
+              <button class="product-quick-view" aria-label="Xem nhanh Áo Thun Essential Fit">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Áo Thun Essential Fit</h3>
+            <div class="product-prices"><span class="product-price">299.000₫</span></div>
+            <div class="product-swatches">
+              <span class="swatch" style="background:#8BAF8E" title="Sage"></span>
+              <span class="swatch" style="background:#374151" title="Xám đậm"></span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+    <div class="carousel-progress-wrap" aria-hidden="true">
+      <div class="carousel-progress-bar" id="sigProgressBar"></div>
+    </div>
+    <div class="section-cta-wrap">
+      <a href="#" class="btn-primary">XEM TẤT CẢ</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================
+     SECTION 13 — BRAND MANIFESTO
+     ==================================== -->
+<section class="manifesto-section reveal-section" aria-labelledby="manifestoHeading">
+  <div class="container manifesto-inner">
+    <div class="manifesto-quote-wrap">
+      <span class="manifesto-quote-mark" aria-hidden="true">"</span>
+      <blockquote class="manifesto-quote" id="manifestoHeading">
+        Phong cách không phải là cách bạn cố gắng để trở nên nổi bật.<br />
+        Phong cách là cách bạn khiến mọi thứ trở nên phù hợp với chính mình.
+      </blockquote>
+    </div>
+    <div class="manifesto-body">
+      <p>UNICHIC không định nghĩa người đàn ông nên mặc gì.</p>
+      <p>Chúng tôi tạo ra những lựa chọn để mỗi người đàn ông tự tin định nghĩa phong cách của riêng mình.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================
+     SECTION 14 — LOOKBOOK / IN MOTION
+     ==================================== -->
+<section class="lookbook-section reveal-section" aria-labelledby="lookbookHeading">
+  <div class="container">
+    <h2 class="section-title text-center" id="lookbookHeading">UNICHIC IN MOTION</h2>
+    <p class="lookbook-caption text-center">Hình ảnh phong cách và cảm hứng phối đồ từ cộng đồng UNICHIC.</p>
+  </div>
+  <div class="lookbook-track-wrap">
+    <div class="lookbook-track" id="lookbookTrack">
+      <div class="lookbook-item">
+        <img src="images/lookbook-1.jpg" alt="UNICHIC street style — phối polo navy và chino" class="lookbook-img" loading="lazy" width="480" height="320" />
+      </div>
+      <div class="lookbook-item">
+        <img src="images/lookbook-2.jpg" alt="UNICHIC chi tiết chất liệu Oxford shirt" class="lookbook-img" loading="lazy" width="480" height="320" />
+      </div>
+      <div class="lookbook-item">
+        <img src="images/lookbook-3.jpg" alt="UNICHIC lifestyle — phong cách văn phòng" class="lookbook-img" loading="lazy" width="480" height="320" />
+      </div>
+      <div class="lookbook-item">
+        <img src="images/lookbook-4.jpg" alt="UNICHIC chi tiết blazer và sơ mi" class="lookbook-img" loading="lazy" width="480" height="320" />
+      </div>
+      <div class="lookbook-item">
+        <img src="images/lookbook-5.jpg" alt="UNICHIC outfit casual — polo và chino" class="lookbook-img" loading="lazy" width="480" height="320" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================
+     SECTION 15 — SUPPORT POLICIES
+     ==================================== -->
+<section class="policies-section reveal-section" aria-labelledby="policiesHeading">
+  <div class="container">
+    <h2 class="section-title text-center" id="policiesHeading">CHÍNH SÁCH HỖ TRỢ</h2>
+    <div class="policies-grid">
+
+      <div class="policy-item">
+        <div class="policy-icon" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+        </div>
+        <h3 class="policy-title">ĐÓNG GÓI CHỈN CHU</h3>
+        <p class="policy-desc">Mỗi sản phẩm được đóng gói cẩn thận, phù hợp làm quà tặng.</p>
+      </div>
+
+      <div class="policy-item">
+        <div class="policy-icon" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 12V22H4V12"/><path d="M22 7H2v5h20V7z"/><path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg>
+        </div>
+        <h3 class="policy-title">ĐỔI SẢN PHẨM THEO CHÍNH SÁCH</h3>
+        <p class="policy-desc">Hỗ trợ đổi size và màu sắc theo điều kiện chính sách của UNICHIC.</p>
+      </div>
+
+      <div class="policy-item">
+        <div class="policy-icon" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="1" y="3" width="15" height="13" rx="1"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+        </div>
+        <h3 class="policy-title">HỖ TRỢ GIAO HÀNG</h3>
+        <p class="policy-desc">Giao hàng toàn quốc. Miễn phí vận chuyển cho đơn đủ điều kiện.</p>
+      </div>
+
+      <div class="policy-item">
+        <div class="policy-icon" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/><path d="M22 8l-2 2-2-2"/></svg>
+        </div>
+        <h3 class="policy-title">TƯ VẤN KÍCH THƯỚC</h3>
+        <p class="policy-desc">Đội ngũ tư vấn sẵn sàng hỗ trợ bạn chọn size phù hợp nhất.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ====================================
+     SECTION 16 — NEWSLETTER
+     ==================================== -->
+<section class="newsletter-section reveal-section" id="newsletter" aria-labelledby="newsletterHeading">
+  <div class="container newsletter-inner">
+    <h2 class="newsletter-heading" id="newsletterHeading">TRỞ THÀNH MỘT PHẦN CỦA UNICHIC</h2>
+    <p class="newsletter-desc">
+      Đăng ký để cập nhật bộ sưu tập mới, cảm hứng phối đồ và những chương trình dành riêng cho khách hàng UNICHIC.
+    </p>
+    <form class="newsletter-form" id="newsletterForm" novalidate>
+      <div class="newsletter-field">
+        <label for="emailInput" class="sr-only">Địa chỉ email của bạn</label>
+        <input
+          type="email"
+          id="emailInput"
+          name="email"
+          placeholder="Địa chỉ email của bạn"
+          class="newsletter-input"
+          autocomplete="email"
+          required
+          aria-describedby="emailError"
+        />
+        <button type="submit" class="btn-primary newsletter-btn">ĐĂNG KÝ</button>
+      </div>
+      <p class="newsletter-error" id="emailError" role="alert" aria-live="assertive"></p>
+      <p class="newsletter-success" id="emailSuccess" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<!-- ====================================
+     SECTION 17 — FOOTER
+     ==================================== -->
+<footer class="footer" id="contact" role="contentinfo">
+  <div class="footer-top">
+    <div class="container footer-grid">
+
+      <!-- Col 1: Brand -->
+      <div class="footer-col footer-brand-col">
+        <div class="footer-logo">UNICHIC</div>
+        <address class="footer-contact">
+          <p>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.61 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.59a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Hotline: [ĐIỀN THÔNG TIN]
+          </p>
+          <p>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Email: [ĐIỀN THÔNG TIN]
+          </p>
+          <p>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            [ĐIỀN ĐỊA CHỈ]
+          </p>
+        </address>
+        <div class="footer-payment" aria-label="Phương thức thanh toán">
+          <span class="payment-badge">VISA</span>
+          <span class="payment-badge">MC</span>
+          <span class="payment-badge">MOMO</span>
+          <span class="payment-badge">COD</span>
+        </div>
+      </div>
+
+      <!-- Col 2: About -->
+      <div class="footer-col">
+        <h3 class="footer-col-heading">VỀ UNICHIC</h3>
+        <ul class="footer-links" role="list">
+          <li><a href="#" class="footer-link">Giới thiệu</a></li>
+          <li><a href="#brand-story" class="footer-link">Câu chuyện thương hiệu</a></li>
+          <li><a href="#" class="footer-link">Bộ sưu tập</a></li>
+          <li><a href="#contact" class="footer-link">Liên hệ</a></li>
+          <li><a href="#" class="footer-link">Tuyển dụng</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 3: Support -->
+      <div class="footer-col">
+        <h3 class="footer-col-heading">HỖ TRỢ</h3>
+        <ul class="footer-links" role="list">
+          <li><a href="#" class="footer-link">Hướng dẫn chọn size</a></li>
+          <li><a href="#" class="footer-link">Chính sách bảo hành</a></li>
+          <li><a href="#" class="footer-link">Chính sách bảo mật</a></li>
+          <li><a href="#" class="footer-link">Chính sách kiểm hàng</a></li>
+          <li><a href="#" class="footer-link">Chính sách đổi trả</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 4: Social -->
+      <div class="footer-col">
+        <h3 class="footer-col-heading">KẾT NỐI</h3>
+        <ul class="footer-social-list" role="list">
+          <li>
+            <a href="#" class="footer-social-link" aria-label="UNICHIC trên Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              Facebook
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-social-link" aria-label="UNICHIC trên Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              Instagram
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-social-link" aria-label="UNICHIC trên TikTok">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+              TikTok
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-social-link" aria-label="UNICHIC trên YouTube">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.97C18.88 4 12 4 12 4s-6.88 0-8.59.45A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.97C5.12 20 12 20 12 20s6.88 0 8.59-.45a2.78 2.78 0 0 0 1.95-1.97A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>
+              YouTube
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-social-link" aria-label="UNICHIC trên Zalo">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+              Zalo
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p class="footer-copy">© 2026 UNICHIC. ALL RIGHTS RESERVED.</p>
+      <div class="footer-bottom-links">
+        <a href="#" class="footer-bottom-link">Điều khoản sử dụng</a>
+        <a href="#" class="footer-bottom-link">Chính sách bảo mật</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ====================================
+     SECTION 18 — FLOATING ACTIONS
+     ==================================== -->
+<div class="floating-actions" role="complementary" aria-label="Hành động nhanh">
+  <!-- Chat button -->
+  <button class="floating-btn chat-btn-float" id="chatBtn" aria-label="Mở chat hỗ trợ">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+  </button>
+  <!-- Back to top -->
+  <button class="floating-btn back-to-top" id="backToTop" aria-label="Quay lại đầu trang" style="display:none">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
